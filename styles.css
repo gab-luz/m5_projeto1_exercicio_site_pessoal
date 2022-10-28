@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    text-align: center;
+    background-image: url(./img/banner-bg.png);
+    padding: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#banner h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#listings-search-form,
+form{
+    display: inline-flex;
+    padding: 10px 0px 10px 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#listings-search-form form select{
+    margin-right: 10px;
+}
+
+.title-big{
+    padding: 40px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: gray;
+}
+
+.links{
+    text-align: center;
+    justify-items:flex-start;
+    background-color: black;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+li{
+    background-color: black;
+    justify-content: space-between;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: rgb(65, 60, 60);
+}
+
+#featured-listings{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.listing{
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.listing img{
+    width: 350px;
+}
+
+.listing p{
+    width: 300px;
+}
+
+#footer_page{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
